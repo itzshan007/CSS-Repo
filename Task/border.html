@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta chaset="UTF-8">
+            <title>Border-box</title>
+            <style>
+                body{
+                    background-image: url("https://www.shipbob.com/wp-content/uploads/2018/02/last-mile-shipping.jpg");
+                    background-repeat:no-repeat;
+                    background-size:cover;
+                    background-clip: border-box;
+                }
+                .navigation{
+                    position: absolute;
+                    left:72%;
+                    font-size: medium;
+                    margin-top: 1%;
+                }
+                .navigation a{
+                    text-decoration:none;
+                    color: white;
+                    font-weight:bolder;
+                }
+                #b1{
+                    padding:1px 6px;
+                    font-weight:bold; 
+                }
+                h1{
+                    color:white;
+                    font-size:40px;
+                    position:absolute;
+                    top: 30%;
+                    font-weight:normal;
+                    text-shadow: 1px 1px black;
+                    margin-left:12%;
+                
+                }
+                h2{
+                    color:white;
+                    font-size: 40px;
+                    font-weight: bolder;
+                    position:absolute;
+                    top: 40%;
+                    text-shadow: 1px 1px black;
+                    margin-left:12%;
+                }
+                .content{
+                    position:absolute;
+                    color: black;
+                    top:53%;
+                    font-size: larger;
+                    text-shadow: 1px 1px white;
+                }
+                #b2{
+                    position:absolute;
+                    top:70%;
+                    margin-left:12%;
+                    padding:7px 12px;
+                    background-color:blue;
+                    border-radius: 3px;
+                    text-shadow:1px 1px black;
+                    color:white;
+                }
+            </style>
+        </head>
+        <body>
+            <section>
+                <nav class="navigation">
+                    <a href="#">Home</a>&nbsp;&nbsp;
+                    <a href="#">our Services</a>&nbsp;&nbsp;
+                    <a href="#">Find Us</a>&nbsp;&nbsp;
+                    <a href="#"><ion-icon name="search" style="color:white;"></ion-icon></a>&nbsp;&nbsp;
+                    <button id="b1">Contact Us</button>&nbsp;&nbsp;
+                </nav>
+                <h1>A Trusted Provider Of</h1>
+                <h2>courier services</h2>
+                <pre class="content">
+                    We deliver your products safely to
+                    your home in a reasonable time
+                </pre>
+                <button id="b2">Get Started&nbsp;&nbsp;<ion-icon name="send"></ion-icon></button>
+            </section>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </body>
+    </html>

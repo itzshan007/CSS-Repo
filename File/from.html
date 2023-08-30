@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+	<html>	
+		<head>
+			<meta charset="UTF-8">
+			<title>FORM</title>
+            <style>
+                body{
+                    background-image: url("https://wallpapercave.com/wp/wp4676598.jpg");
+                    background-repeat:no-repeat;
+                    background-size:cover;
+                   
+                }
+                section{
+                    margin: 3% 2%;
+                }
+                form{
+                    border: none;
+                    border-radius: 30px;
+                    width: 30%;
+                    padding: 1% 3%;
+                    background-image: url("https://wallpaperaccess.com/full/1268171.jpg");
+                    background-position: right;
+                 }
+                .table{
+                    line-height: 60%;
+                    height: 399px;  
+                    font-size: large; 
+                }
+                h1{
+                    font-size: xx-large;
+                    font-family: Times New Roman;
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                    color: blue;
+                    text-shadow: 1px 1px silver;
+
+                }
+                .label{
+                    font-weight: 500;
+                    font-size: larger;
+                    font-family: "Segoe Script";
+                    color: whitesmoke;
+                    text-shadow: 1px 1px black;
+
+                }
+                .in-box{
+                      width: 120%;
+                      padding: 3%;
+                      border: none;
+                      outline: none;
+                      border-bottom: 2px solid white;
+                      color: white;
+                      background: transparent;
+                      font-size: large;
+                      font-family: Courier;
+                      text-overflow: clip;
+                }
+                #phno{
+                    border-radius: 10px 1px 1px 10px;
+                    padding: 2%;
+                    background: transparent;
+                    color: white;
+                }
+                .phno{
+                    border-radius: 1px 10px 10px 1px;
+                    padding: 2%;
+                    background: transparent;
+                    color: white;
+                }
+                .button{
+                    border: .3px solid silver;
+                    margin-left: 20%;
+                    font-size: large;
+                    font-weight: 600;
+                    font-family: "Segoe Script";
+                    width: 80%;
+                    background:linear-gradient(skyblue,black);
+                    border-radius: 20px;
+                }
+                .button:hover{
+                    background:linear-gradient(white,black);
+                }
+            </style>
+		</head>
+		<body>
+            <section>	
+                <form class="out-line">	 
+                    <h1>Register form</h1>
+                    <table class="table"> 
+			            <tr>
+                            <td><label class="label">Name :</label></td>
+			                <td><input class="in-box" type="text" placeholder="Name" required/></td>
+                        </tr>
+			            <tr>
+                            <td><label class="label">Password :</label></td>
+                            <td><input class="in-box" type="password" placeholder="Password"required/></td>
+                        </tr>
+			            <tr>
+                            <td><lable class="label">Gender :</label></td>
+                            <div class="radio">
+			                <td><input style="color:aliceblue" type="radio" name="select"/>Male
+			                <input style="color:aliceblue" type="radio" name="select"/>Female</td>
+                            </div>
+                        </tr>
+			            <tr>
+                            <td><lable class="label">Email :</label></td>
+			                <td><input class="in-box" type="email" placeholder="Email"required/></td>
+                        </tr>
+			            <tr>
+                            <td><lable class="label">Phone No :</label></td>
+			            <td><select name="phno" id="phno">
+			                <option value="1">+91</option>
+			                <option value="2">+81</option>
+			                <option value="3">+71</option>
+			                    <input class="phno" type="number" placeholder="Phone No" required/></td>
+	        		    </select>
+                        </tr>
+                        <tr>
+			                <td colspan="2"><input class="button" type="submit" value="Submit"required/>
+                        </tr>
+                    </table>
+                </form>
+            </section>
+		</body>
+	</html>
+		
